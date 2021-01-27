@@ -1,0 +1,55 @@
+h1 {
+    color: green;
+    color: rgb(0, 128, 0);
+    color: rgba(0, 128, 0, 1);
+    color: #008000; background-color: red;
+}
+
+h2{
+    color: blue;
+    color: rgb(0, 0, 255);
+    color: rgba(0, 0, 255, 1);
+    color: #0000ff; background-color: orange;
+}
+
+h3{
+    color: red;
+    color: rgb(255, 0, 0);
+    color: rgba(255, 0, 0, 1);
+    color: #ff0000;background-color: yellow;
+}
+h4{
+    color: purple;
+    color: rgb(128, 0, 128);
+    color: rgba(128, 0, 128, 1);
+    color: #800080;background-color: green;
+}
+h5{
+    color: yellow;
+    color: rgb(255, 255, 0);
+    color: rgba(255, 255, 0, 1);
+    color: #ffff00;background-color: blue;
+}
+h6{
+    color: orange;
+    color: rgb(255, 165, 0);
+    color: rgba(255, 165, 0, 1);
+    color: #ffa500;background-color: indigo;
+}
+p{
+    color:brown;
+    color: rgb(165, 42, 42);
+    color: rgba(165, 42, 42, 1);
+    color: #a52a2a;background-color: violet;
+}
+
+li:nth-child(1){
+    color: hotpink;
+}
+li:nth-child(3){
+    background-color: peachpuff;
+}
+
+li:nth-child(odd) {
+    border: 5px solid green;
+}
